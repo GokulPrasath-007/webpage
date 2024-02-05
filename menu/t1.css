@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+h2{padding: 50px;
+    color: white;
+}
+body {
+    background: url('web1.avif') center center/cover fixed no-repeat;
+    background-color: #f4f4f4; /* Set the background color for the entire page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center-align text within the body */
+}
+
+#message {
+    color: #fff; /* Set text color to white */
+    padding: 20px; /* Add some padding to the welcome message */
+    border-radius: 8px;
+    align-text: center; /* Add rounded corners */
+}
+nav{
+width: 100%;
+background-color: black; 
+height: 70px;
+line-height: 70px;
+padding: 0px 125px;
+}
+#a1{
+    width: 100%;
+    background-color: rgba(41, 37, 37, 0.973); 
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 125px;
+
+}
+nav h1{
+    font-size: 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+nav h1:hover{
+color: rgba(17, 167, 226, 0.925);
+}
+nav ul{
+    float: center;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 0px 17px;
+    display: block;
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none; 
+    background-color: rgb(70, 66, 66);
+    border-radius: 0px 0px 7px 7px;
+}
+nav ul li ul li{
+    line-height: 1;
+    width: 200px;
+    border-radius: 7px;
+    padding: 3px;
+
+}
+nav ul li ul li a{
+padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color:rgba(17, 167, 226, 0.925);
+    color: aliceblue;
+    }
+nav ul li a:hover{
+   color:rgba(17, 167, 226, 0.925);
+    }
+    nav ul li:hover ul{
+        display: block; }
